@@ -12,6 +12,11 @@ function leadingCase(str) {
 }
 
 // This function takes the file path and a function
+// Inside the function is the code for a loop of the items
+// An if stmt that if country is equal to item.name
+// then loop over the items in the array.
+// Inside the console log is the code to display the searched
+// country info.
 jsonfilereader('./countries.json', function(countries) {
 	countries.forEach(function(item) {
 		if (country === item.name) {

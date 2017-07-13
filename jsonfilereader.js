@@ -1,3 +1,6 @@
+// Requiring fs
+// Wrapping the fs.readFile in a function with a path and callback
+// passed in.
 const fs = require("fs");
 
 function jsonParserReader(path, callback) {
